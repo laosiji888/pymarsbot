@@ -1,4 +1,4 @@
-#Telegram火星bot  
+# Telegram火星bot  
 去年闲来无事写的火星车bot，可以检测群/频道里已经发过的图。   
 在同一个群里，如果在一张图被别人发过，那么再次发送这张图时这个bot则会提示火星。  
 这个功能基于Telegram的唯一ID+使用OpenCV对图片进行 `DHASH`  
