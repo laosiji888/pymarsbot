@@ -5,7 +5,7 @@ BOT_SESSION_NAME: str = "huaji"  # 任何合法的文件名都可以
 BOT_NAME: str = "@huoxingche_bot"  # 申请的bot 的username， @开头的那个，这里面的 @ 不能删
 admins = []  # 能操作bot的userID，实际上就是能手动保存
 
-CAN_RUN = False
+CAN_RUN = True
 if not CAN_RUN:
     # 如果你觉得配置好了把这里删了就行了，或者把 CAN_RUN 改为True
     print("该bot基于Telethon+OpenCV开发\n"
