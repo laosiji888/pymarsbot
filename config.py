@@ -3,7 +3,7 @@ API_HASH: str = "655948dbb9ee926796a73bd100e43b2a"
 BOT_TOKEN: str = "5789474082:AAHCHXXNkA39W_56JhcVsllzI1GWxcqKu40"
 BOT_SESSION_NAME: str = "huaji"  # 任何合法的文件名都可以
 BOT_NAME: str = "@huoxingche_bot"  # 申请的bot 的username， @开头的那个，这里面的 @ 不能删
-admins = [huajihuaji]  # 能操作bot的userID，实际上就是能手动保存
+admins = [@huajihuaji]  # 能操作bot的userID，实际上就是能手动保存
 
 CAN_RUN = True
 if not CAN_RUN:
